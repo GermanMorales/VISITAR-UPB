@@ -13,8 +13,8 @@ public class TeleType : MonoBehaviour
 
         int totalVisibleCharacters = text.textInfo.characterCount;
         int counter = 0;
-        
-        int visibleCount = counter % (totalVisibleCharacters + 1);
+
+        int visibleCount = 0;
         
         while (visibleCount < totalVisibleCharacters)
         {
