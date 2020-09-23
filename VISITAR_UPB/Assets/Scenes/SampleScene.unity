@@ -237,14 +237,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: porteria
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 3c819bb6f82a3594d8f059c4bfdadf72, type: 3}
 --- !u!4 &19990956
 Transform:
   m_ObjectHideFlags: 0
@@ -253,7 +253,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19990950}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1.968}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 901912685}
@@ -779,14 +779,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: fruterua
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 47b7c85c932e96441b489600360ac74b, type: 3}
 --- !u!4 &69013803
 Transform:
   m_ObjectHideFlags: 0
@@ -1017,7 +1017,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'fruteruaMaterial
 
     -3444'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -1032,7 +1032,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 47b7c85c932e96441b489600360ac74b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1875,14 +1875,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: parqueaderos
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: b41206a5a56747f49985f0094ca64a8a, type: 3}
 --- !u!4 &125025535
 Transform:
   m_ObjectHideFlags: 0
@@ -2011,7 +2011,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'escaleras1Material
 
     -3642'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -2026,7 +2026,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0f566c81b9c4ca14687bd1ff56f5aa1e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2404,7 +2404,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'KMaterial
 
     -5840'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -2419,7 +2419,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 610b370a887aa10488365c481391d722, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2594,14 +2594,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: hueco
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 7e11b391aaead5e4ab65531b63268596, type: 3}
 --- !u!4 &172431509
 Transform:
   m_ObjectHideFlags: 0
@@ -3191,14 +3191,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: G
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 891af46f4a246a4468af67ff0a501943, type: 3}
 --- !u!4 &211858597
 Transform:
   m_ObjectHideFlags: 0
@@ -3488,7 +3488,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'huecoMaterial
 
     -3840'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -3503,7 +3503,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7e11b391aaead5e4ab65531b63268596, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5273,7 +5273,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'porteriaMaterial
 
     14604'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -5288,7 +5288,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3c819bb6f82a3594d8f059c4bfdadf72, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6396,14 +6396,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: L
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 33d90672fef72eb4d9888041ab60dc0e, type: 3}
 --- !u!4 &417825694
 Transform:
   m_ObjectHideFlags: 0
@@ -6815,14 +6815,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: K
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 610b370a887aa10488365c481391d722, type: 3}
 --- !u!4 &451044269
 Transform:
   m_ObjectHideFlags: 0
@@ -6968,14 +6968,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: escalerasfork
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: fe76e9aa8463e5b4b8cbba8bb62e3850, type: 3}
 --- !u!4 &455155472
 Transform:
   m_ObjectHideFlags: 0
@@ -7623,14 +7623,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: J
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: ebb086f27d9471742ad596c87d02e153, type: 3}
 --- !u!4 &495970038
 Transform:
   m_ObjectHideFlags: 0
@@ -7656,7 +7656,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'bibliotecaMaterial
 
     -3040'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -7671,7 +7671,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1a81c534f8c5f474482bbe2f91c22bf1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -8511,7 +8511,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'CMaterial
 
     -2838'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -8526,7 +8526,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 746fa58cf46bd194f882bb02d9f7c5ec, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -9702,7 +9702,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'escalerasforkMaterial
 
     -5234'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -9717,7 +9717,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: fe76e9aa8463e5b4b8cbba8bb62e3850, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -9895,7 +9895,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'plazaMaterial
 
     -5436'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -9910,7 +9910,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 920b19bbcea1bb44bb8f4a29ca1e4816, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -11714,14 +11714,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: escaleras1
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 0f566c81b9c4ca14687bd1ff56f5aa1e, type: 3}
 --- !u!4 &736646661
 Transform:
   m_ObjectHideFlags: 0
@@ -12068,14 +12068,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: H
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: ebc5301f4a8462646816b1379fe9fb7c, type: 3}
 --- !u!4 &743753235
 Transform:
   m_ObjectHideFlags: 0
@@ -13928,14 +13928,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: D
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 7f99fed12b227d744a1a690c6dcdbeab, type: 3}
 --- !u!4 &857215250
 Transform:
   m_ObjectHideFlags: 0
@@ -14212,7 +14212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 094f2a96338e21649a74a31fbfe685a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  edificioA: {fileID: 0}
 --- !u!4 &869941673
 Transform:
   m_ObjectHideFlags: 0
@@ -15724,7 +15723,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'escaleras2Material
 
     -4438'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -15739,7 +15738,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 17ba08666fc67214f92806ff411e366a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -17108,7 +17107,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'LMaterial
 
     -6842'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -17123,7 +17122,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 33d90672fef72eb4d9888041ab60dc0e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -17241,7 +17240,19 @@ MonoBehaviour:
   StatusFilter: 1
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 869941672}
+        m_TargetAssemblyTypeName: MasterScript, Assembly-CSharp
+        m_MethodName: Message
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -17273,7 +17284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023409721}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.329, y: 0, z: 1.759}
+  m_LocalPosition: {x: 0, y: 0, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1848911044}
@@ -17290,7 +17301,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'JMaterial
 
     -3242'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -17305,7 +17316,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: ebb086f27d9471742ad596c87d02e153, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -18072,7 +18083,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'carreteraMaterial
 
     -4834'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -18087,7 +18098,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 61b60acc46ca1e44bb23420c580180fd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -18421,14 +18432,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: carretera
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 61b60acc46ca1e44bb23420c580180fd, type: 3}
 --- !u!4 &1155335934
 Transform:
   m_ObjectHideFlags: 0
@@ -19223,14 +19234,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: templo
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: a6b79d476783c4e42aa86b274f333323, type: 3}
 --- !u!4 &1200615885
 Transform:
   m_ObjectHideFlags: 0
@@ -19933,7 +19944,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'temploMaterial
 
     -2220'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -19948,7 +19959,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: a6b79d476783c4e42aa86b274f333323, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -20082,14 +20093,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: B
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: a365178c5426cd3419b5d15289c5e6c6, type: 3}
 --- !u!4 &1294579094
 Transform:
   m_ObjectHideFlags: 0
@@ -21926,7 +21937,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'teatromayorMaterial
 
     -5638'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -21941,7 +21952,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 38c8de438efd66a468284f5128e350c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -21955,7 +21966,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'GMaterial
 
     -4636'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -21970,7 +21981,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 891af46f4a246a4468af67ff0a501943, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -22104,14 +22115,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: E
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 780920c50d3079547b1ed9aa8d63ab53, type: 3}
 --- !u!4 &1447598672
 Transform:
   m_ObjectHideFlags: 0
@@ -22269,7 +22280,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'DMaterial
 
     -4240'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -22284,7 +22295,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7f99fed12b227d744a1a690c6dcdbeab, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -22633,14 +22644,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: C
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 746fa58cf46bd194f882bb02d9f7c5ec, type: 3}
 --- !u!4 &1478216973
 Transform:
   m_ObjectHideFlags: 0
@@ -23039,14 +23050,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: F
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 858d2f1ab7a6bbf49b70a740e1c0d26f, type: 3}
 --- !u!4 &1495805609
 Transform:
   m_ObjectHideFlags: 0
@@ -23542,7 +23553,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'FMaterial
 
     -6442'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -23557,7 +23568,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 858d2f1ab7a6bbf49b70a740e1c0d26f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -23844,7 +23855,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'HMaterial
 
     -6640'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -23859,7 +23870,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: ebc5301f4a8462646816b1379fe9fb7c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -24289,14 +24300,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: I
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 0e9d662ffd062ff43afd29d065864409, type: 3}
 --- !u!4 &1552845092
 Transform:
   m_ObjectHideFlags: 0
@@ -25474,7 +25485,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'EMaterial
 
     -6240'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -25489,7 +25500,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 780920c50d3079547b1ed9aa8d63ab53, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -25787,14 +25798,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: escaleras3
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 1805f864d9527864cbf0da9b78d92393, type: 3}
 --- !u!4 &1641424074
 Transform:
   m_ObjectHideFlags: 0
@@ -26331,7 +26342,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'parqueaderosMaterial
 
     -4038'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -26346,7 +26357,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: b41206a5a56747f49985f0094ca64a8a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -27918,6 +27929,7 @@ GameObject:
   - component: {fileID: 1848911045}
   - component: {fileID: 1848911048}
   - component: {fileID: 1848911047}
+  - component: {fileID: 1848911049}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -28120,6 +28132,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af82d7d4ac5aa664eaa81ab4322dea1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!328 &1848911049
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848911043}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: e076d64d6ecbdb048aff23206abdf616, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: _MainTex
+  m_RenderMode: 3
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
 --- !u!1 &1856351712
 GameObject:
   m_ObjectHideFlags: 0
@@ -28328,14 +28375,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: plaza
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 920b19bbcea1bb44bb8f4a29ca1e4816, type: 3}
 --- !u!4 &1863231160
 Transform:
   m_ObjectHideFlags: 0
@@ -28828,14 +28875,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: teatromayor
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 38c8de438efd66a468284f5128e350c4, type: 3}
 --- !u!4 &1874264187
 Transform:
   m_ObjectHideFlags: 0
@@ -28861,7 +28908,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'BMaterial
 
     -2636'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -28876,7 +28923,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: a365178c5426cd3419b5d15289c5e6c6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -29113,14 +29160,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: biblioteca
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 1a81c534f8c5f474482bbe2f91c22bf1, type: 3}
 --- !u!4 &1887189176
 Transform:
   m_ObjectHideFlags: 0
@@ -29327,14 +29374,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: A
+  mTrackableName: escaleras2
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 17ba08666fc67214f92806ff411e366a, type: 3}
 --- !u!4 &1887795226
 Transform:
   m_ObjectHideFlags: 0
@@ -29697,7 +29744,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'IMaterial
 
     -6038'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -29712,7 +29759,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0e9d662ffd062ff43afd29d065864409, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -29726,7 +29773,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'AMaterial
+  m_Name: 'escaleras3Material
 
     -5036'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -29741,7 +29788,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 598134bf1c1bb4c46a92a8e202898a64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1805f864d9527864cbf0da9b78d92393, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -30846,9 +30893,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Edificio A:\nEl primer edificio de la universidad.\nEn este edificio se
-    puede encontrar \nla primera cafeter\xEDa y los \nlaboratorios de qu\xEDmica.\nPara
-    ir hacia su direcci\xF3n siga la flecha."
+  m_text: "Edificio B:\nEn este edificio se encuentran\nlos salones y oficinas de
+    los profe-\nsores de ciclo b\xE1sico.\nPara ir hacia su direcci\xF3n siga la
+    flecha."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 276621b610f229849af47ef2d2542d23, type: 2}
   m_sharedMaterial: {fileID: 927797828469213581, guid: 276621b610f229849af47ef2d2542d23, type: 2}
@@ -30922,12 +30969,12 @@ MonoBehaviour:
   m_margin: {x: -0.5043384, y: -1.3058213, z: 18.028944, w: 3.7311065}
   m_textInfo:
     textComponent: {fileID: 1972877273}
-    characterCount: 182
+    characterCount: 145
     spriteCount: 0
-    spaceCount: 31
-    wordCount: 30
+    spaceCount: 25
+    wordCount: 26
     linkCount: 0
-    lineCount: 6
+    lineCount: 5
     pageCount: 1
     materialCount: 2
   m_isUsingLegacyAnimationComponent: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MasterScript : MonoBehaviour
 {
-    public GameObject edificioA;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,5 +15,10 @@ public class MasterScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Message()
+    {
+        Debug.Log ("Found");
     }
 }
