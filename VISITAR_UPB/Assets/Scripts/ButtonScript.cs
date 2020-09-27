@@ -7,5 +7,6 @@ public class ButtonScript : MonoBehaviour
     public void showOptions(GameObject options)
     {
         options.SetActive(!options.activeSelf);
+      
     }
 }
