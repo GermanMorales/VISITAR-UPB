@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d3c9b36-c7fc-455a-9e81-1cf0d5e6e41f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VISITAR_UPB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VISITAR_UPB/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Reconocimiento.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Reconocimiento.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animacion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animacion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,15 +33,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="96">
               <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <marker date="1601230574455" expanded="false" signature="6:78" ph="..." />
                 <marker date="1601230574455" expanded="true" signature="121:240" ph="{...}" />
                 <marker date="1601230574455" expanded="true" signature="171:238" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animacion.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <marker date="1602106689500" expanded="false" signature="6:78" ph="..." />
+                <marker date="1602106689500" expanded="true" signature="118:427" ph="{...}" />
+                <marker date="1602106689500" expanded="true" signature="215:269" ph="{...}" />
+                <marker date="1602106689500" expanded="true" signature="297:346" ph="{...}" />
+                <marker date="1602106689500" expanded="true" signature="404:425" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -53,6 +69,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animacion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TeleType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -61,12 +78,13 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/TeleType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Animacion.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="428" />
+    <option name="y" value="52" />
     <option name="width" value="805" />
     <option name="height" value="735" />
   </component>
@@ -76,15 +94,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,11 +151,12 @@
       <workItem from="1597772130494" duration="2313000" />
       <workItem from="1599604280306" duration="2500000" />
       <workItem from="1601229566410" duration="1431000" />
+      <workItem from="1602105083181" duration="2501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6244000" />
+    <option name="totallyTimeSpent" value="8745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -149,9 +168,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="428" y="52" width="805" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46308726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -213,12 +233,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="96">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <marker date="1601230574455" expanded="false" signature="6:78" ph="..." />
             <marker date="1601230574455" expanded="true" signature="121:240" ph="{...}" />
             <marker date="1601230574455" expanded="true" signature="171:238" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animacion.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <marker date="1602106689500" expanded="false" signature="6:78" ph="..." />
+            <marker date="1602106689500" expanded="true" signature="118:427" ph="{...}" />
+            <marker date="1602106689500" expanded="true" signature="215:269" ph="{...}" />
+            <marker date="1602106689500" expanded="true" signature="297:346" ph="{...}" />
+            <marker date="1602106689500" expanded="true" signature="404:425" ph="{...}" />
           </folding>
         </state>
       </provider>
