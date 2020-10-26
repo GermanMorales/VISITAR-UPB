@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d3c9b36-c7fc-455a-9e81-1cf0d5e6e41f" name="Default Changelist" comment="" />
+    <list default="true" id="0d3c9b36-c7fc-455a-9e81-1cf0d5e6e41f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VISITAR_UPB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VISITAR_UPB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Reconocimiento.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Reconocimiento.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animacion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animacion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="428" />
     <option name="y" value="52" />
     <option name="width" value="805" />
@@ -162,6 +169,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="428" y="52" width="805" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46308726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
