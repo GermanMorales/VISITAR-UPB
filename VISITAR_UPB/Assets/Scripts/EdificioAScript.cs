@@ -13,12 +13,21 @@ public class EdificioAScript : MonoBehaviour
     void Start()
     {
 
-        Arrow.transform.rotation = haciefruteria;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    public void Found()
+    {
+        Debug.Log ("Found");
+    }
+
+    void changeArrowPosition()
+    {
+        Arrow.transform.rotation = haciefruteria;
     }
 }
