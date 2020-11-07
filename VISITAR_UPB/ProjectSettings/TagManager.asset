@@ -3,7 +3,32 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TagA
+  - TagB
+  - TagC
+  - TagD
+  - TagE
+  - TagF
+  - TagG
+  - TagH
+  - TagI
+  - TagJ
+  - TagK
+  - TagPorteria
+  - TagBiblio
+  - TagFruteria
+  - TagHueco
+  - TagParqueadero
+  - TagPlaza
+  - TagTeatro
+  - TagL
+  - TagCarretera
+  - TagTemplo
+  - TagEsc1
+  - TagEsc2
+  - TagEsc3
+  - TagEscFork
   layers:
   - Default
   - TransparentFX
