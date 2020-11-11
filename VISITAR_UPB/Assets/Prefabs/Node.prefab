@@ -931,8 +931,9 @@ GameObject:
   - component: {fileID: 8110582008044638688}
   - component: {fileID: 5821768865198421859}
   - component: {fileID: 8110582008044638619}
+  - component: {fileID: 4455530636179102221}
   m_Layer: 0
-  m_Name: Ubicacion
+  m_Name: Node
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1148,6 +1149,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4455530636179102221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8110582008044638690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e448c8c06777f44f81014b296666dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8110582008073003822
 GameObject:
   m_ObjectHideFlags: 0
