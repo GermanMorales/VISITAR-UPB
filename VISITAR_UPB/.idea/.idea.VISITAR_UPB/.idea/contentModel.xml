@@ -6,6 +6,7 @@
     <e p="C:\Users\anabm\Desktop\Proyecto de Grado\VISITAR-UPB\VISITAR_UPB" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="currenttriggerscript.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="Migration" t="Include">
             <e p="AddVuforiaEnginePackage.cs" t="Include" />
@@ -14,10 +15,37 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Animacion.cs" t="Include" />
+          <e p="BibliotecaScript.cs" t="Include" />
           <e p="ButtonScript.cs" t="Include" />
+          <e p="CarreteraScript.cs" t="Include" />
           <e p="EdificioAScript.cs" t="Include" />
+          <e p="EdificioBScript.cs" t="Include" />
+          <e p="EdificioCScript.cs" t="Include" />
+          <e p="EdificioDScript.cs" t="Include" />
+          <e p="EdificioEScript.cs" t="Include" />
+          <e p="EdificioFScript.cs" t="Include" />
+          <e p="EdificioGScript.cs" t="Include" />
+          <e p="EdificioHScript.cs" t="Include" />
+          <e p="EdificioIScript.cs" t="Include" />
+          <e p="EdificioJScript.cs" t="Include" />
+          <e p="EdificioKScript.cs" t="Include" />
+          <e p="EdificioLScript.cs" t="Include" />
+          <e p="EscaleraforkScript.cs" t="Include" />
+          <e p="Escaleras1Script.cs" t="Include" />
+          <e p="Escaleras2Script.cs" t="Include" />
+          <e p="Escaleras3Script.cs" t="Include" />
+          <e p="FruteriaScript.cs" t="Include" />
+          <e p="HuecoScript.cs" t="Include" />
           <e p="MasterScript.cs" t="Include" />
+          <e p="NewBehaviourScript.cs" t="Include" />
+          <e p="Nodes.cs" t="Include" />
+          <e p="ParqueaderoScript.cs" t="Include" />
+          <e p="PlazaScript.cs" t="Include" />
+          <e p="PorteriaScript.cs" t="Include" />
+          <e p="TeatroMayorScript.cs" t="Include" />
           <e p="TeleType.cs" t="Include" />
+          <e p="TemploScript.cs" t="Include" />
+          <e p="UbicacionScript.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
