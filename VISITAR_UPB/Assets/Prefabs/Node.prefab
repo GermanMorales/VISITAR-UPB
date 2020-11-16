@@ -1023,9 +1023,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 11500000, guid: f2e9f04b902c776448b5e5ba1e7c2459, type: 3}
         m_TargetAssemblyTypeName: MasterScript, Assembly-CSharp
-        m_MethodName: GetNameofObject
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1161,6 +1161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e448c8c06777f44f81014b296666dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Connections: []
 --- !u!1 &8110582008073003822
 GameObject:
   m_ObjectHideFlags: 0

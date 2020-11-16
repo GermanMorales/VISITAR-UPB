@@ -15,6 +15,8 @@ public class Graph : MonoBehaviour
 	/// </summary>
 	[SerializeField]
 	protected List<Node> m_Nodes = new List<Node> ();
+    protected Node m_From;
+    protected Node m_To;
 
 	/// <summary>
 	/// Gets the nodes.
@@ -128,5 +130,17 @@ public class Graph : MonoBehaviour
 		path.Bake ();
 		return path;
 	}
+
+    public void Definirorigen(Node origen)
+    {
+        m_From = origen;
+        GetShortestPath(m_From, m_To);
+        Debug.Log(m_From);
+    }
+    /*public void DefinirTo ( destino)
+    {
+        
+        Debug.Log(destino.text);
+    }*/
 	
 }
