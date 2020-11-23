@@ -2,7 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
+
 
 /// <summary>
 /// The Graph.
@@ -135,15 +138,25 @@ public class Graph : MonoBehaviour
     public void Definirorigen(Node origen)
     {
         m_From = origen;
-		if (m_To != null) 
+		if (m_To != null && m_To != m_From) 
 		{
 			m_Path = GetShortestPath ( m_From, m_To );
+			UbicacionScript uscript = m_From.GetComponent<UbicacionScript>();
+			uscript.DoChanges(m_Path.nodes[1]);
 		}
     }
-    public void DefinirTo (int destino)
+    public void DefinirTo (TextMeshProUGUI destino)
     {
-		
-        Debug.Log(destino);
+        string opcion = destino.text;
+        Node[] list = GameObject.FindObjectsOfType<Node>();
+
+        for (var i = 0; i < list.Length; i++)
+        {
+            if (list[i].gameObject.name == opcion)
+            {
+                m_To = list[i];
+            }
+        }
     }
 	
 }

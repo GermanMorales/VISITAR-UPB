@@ -1305,12 +1305,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 0e1ffd85010bbca42a1f07b7cefd5602, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1319,11 +1323,43 @@ PrefabInstance:
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 869941672}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: GetNameofObject
+      value: DefinirTo
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 244333715}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 244333715}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1545,12 +1581,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: e7b08fd65fe9bc84fafe690991006d24, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1564,6 +1604,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1410182813}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3366,12 +3422,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 28984f410df7b624cad1e34875156531, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -3385,6 +3445,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1341502226}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4235,12 +4311,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: f995b782ad4679449967705f530a7b8e, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -4254,6 +4334,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 474135236}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4807,12 +4903,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 10057d522e02b7949b439d5338164af5, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -4826,6 +4926,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 252107395}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4937,7 +5053,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 454459848}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 48883255}
+        m_TargetAssemblyTypeName: Graph, Assembly-CSharp
+        m_MethodName: DefinirTo
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1588460306}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &454459848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5156,12 +5284,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 6783bf31b8599504b915c077fcd540fb, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -5170,11 +5302,43 @@ PrefabInstance:
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 869941672}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: GetNameofObject
+      value: DefinirTo
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1300651582}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1300651582}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5651,16 +5815,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 8a7fdff336ba2d4468f71dfc5075c59a, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: Graph, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -5674,6 +5842,18 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1642118712}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5908,12 +6088,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: b9ca6d129df79e94cb32904e6aed342d, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -5927,6 +6111,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 139608899}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -7821,12 +8021,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 920b19bbcea1bb44bb8f4a29ca1e4816, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -7840,6 +8044,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1354036371}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8090,12 +8310,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: f547a0c50bfd76c4c9a214481a5d6a20, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -8109,6 +8333,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 735913165}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8670,12 +8910,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: c68934ad6654b3d4493b0cfba6d54876, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -8689,6 +8933,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 274856091}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9722,12 +9982,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: cf759a71163bd604085cab233171dd75, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -9741,6 +10005,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1765220547}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9967,12 +10247,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: aea20348a0c1a4442b6144c963208d99, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -9986,6 +10270,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1210218272}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12032,12 +12332,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: c4d91d4bdb75bc64d93bfc13d7a40330, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -12051,6 +12355,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 710220481}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12553,12 +12873,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 0eb79fe9b0b9a514fbca192e338f25cd, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -12572,6 +12896,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1495223031}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13421,7 +13761,19 @@ MonoBehaviour:
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 869941674}
+        m_TargetAssemblyTypeName: Graph, Assembly-CSharp
+        m_MethodName: DefinirTo
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &1442751979
 MonoBehaviour:
@@ -14721,12 +15073,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: b8609fcf802d4ac4ab9df604a673c680, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -14744,6 +15100,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: MasterScript, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1669814060}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -16160,12 +16532,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: e4f9b728258019e4999cc350d5361676, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -16179,6 +16555,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1185573182}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -16426,12 +16818,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: d367aa6dcf0b862479ed32a88f3d3ab9, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -16445,6 +16841,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2126913037}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -16812,6 +17224,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e448c8c06777f44f81014b296666dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1686463424 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8110582008073003810, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+  m_PrefabInstance: {fileID: 8110582008391086043}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e39c50db046fec4baad8a9217b6977e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1686718514 stripped
@@ -17259,12 +17682,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 9a29678b17bef0647b03fedd79754c4f, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -17278,6 +17705,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1700181413}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -17976,12 +18419,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 7ceaea593bbda214fb28880a390fda17, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -17995,6 +18442,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1845788793}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -19393,12 +19856,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: d30a23fae66d53f489cc0c0a5603ddff, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -19412,6 +19879,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1686718514}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -19847,6 +20330,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 111a6ff6d92d82a4091250285ffa7439, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 869941672}
@@ -19857,19 +20344,31 @@ PrefabInstance:
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: Graph, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: TagB
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1681465306}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -20294,12 +20793,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 64fd8964ebaac384195ae8fabdbbd166, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -20313,6 +20816,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 240528963}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -20539,12 +21058,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: dc557f0e1bc72054abc13867512ad48a, type: 3}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 48883255}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_tag
+      value: Definirorigen
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -20558,6 +21081,22 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: GetNameofObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 433167505}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -22298,9 +22837,13 @@ PrefabInstance:
       value: TriggerA
       objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 869941671}
+      objectReference: {fileID: 1686463424}
     - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -22325,6 +22868,46 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1476153721}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Animacion, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Detected
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 48883255}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Graph, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Definirorigen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1476153721}
+    - target: {fileID: 8110582008044638693, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Node, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8110582008044638695, guid: bf7969735fed6254f9dba2d18e4aead0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

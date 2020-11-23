@@ -7,6 +7,8 @@ public class UbicacionScript : MonoBehaviour
     public GameObject Arrow;
     [SerializeField]
     private List<Nodes> m_Nodes = new List<Nodes> ();
+    protected Node nextnode;
+    public int listLength;
 
     public virtual List<Nodes> nodes
     {
@@ -16,10 +18,6 @@ public class UbicacionScript : MonoBehaviour
         }
     }
     
-    public void Found()
-    {
-        Debug.Log ("Found");
-    }
 
     void changeArrowPosition()
     {
@@ -36,5 +34,18 @@ public class UbicacionScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void DoChanges(Node next)
+    {
+        nextnode = next;
+        listLength = m_Nodes.Count;
+        for (int i = 0; i < listLength ; i++)
+        {
+            if (nextnode.name == m_Nodes[i].nombre)
+            {
+            Arrow.transform.rotation = m_Nodes[i].quaternion;
+            }
+        }            
     }
 }
