@@ -17,6 +17,7 @@ public class Graph : MonoBehaviour
 	protected List<Node> m_Nodes = new List<Node> ();
     protected Node m_From;
     protected Node m_To;
+	protected Path m_Path = new Path ();
 
 	/// <summary>
 	/// Gets the nodes.
@@ -134,13 +135,15 @@ public class Graph : MonoBehaviour
     public void Definirorigen(Node origen)
     {
         m_From = origen;
-        GetShortestPath(m_From, m_To);
-        Debug.Log(m_From);
+		if (m_To != null) 
+		{
+			m_Path = GetShortestPath ( m_From, m_To );
+		}
     }
-    /*public void DefinirTo ( destino)
+    public void DefinirTo (int destino)
     {
-        
-        Debug.Log(destino.text);
-    }*/
+		
+        Debug.Log(destino);
+    }
 	
 }
