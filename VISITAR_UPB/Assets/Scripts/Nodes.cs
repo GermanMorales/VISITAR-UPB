@@ -6,5 +6,9 @@ using UnityEngine;
 public class Nodes
 {
     public String nombre;
+
+    public String direccion;
     public Quaternion quaternion;
+
+    
 }

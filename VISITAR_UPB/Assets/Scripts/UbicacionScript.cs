@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class UbicacionScript : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class UbicacionScript : MonoBehaviour
     private List<Nodes> m_Nodes = new List<Nodes> ();
     protected Node nextnode;
     public int listLength;
+    public TextMeshPro Indicacion;
 
     public virtual List<Nodes> nodes
     {
@@ -45,6 +48,7 @@ public class UbicacionScript : MonoBehaviour
             if (nextnode.name == m_Nodes[i].nombre)
             {
             Arrow.transform.rotation = m_Nodes[i].quaternion;
+            Indicacion.text = "Siguiente Punto:" + "\n" + m_Nodes[i].nombre + "\n" + m_Nodes[i].direccion;
             }
         }            
     }
