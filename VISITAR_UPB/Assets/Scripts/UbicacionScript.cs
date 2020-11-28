@@ -10,7 +10,7 @@ public class UbicacionScript : MonoBehaviour
     [SerializeField]
     private List<Nodes> m_Nodes = new List<Nodes> ();
     protected Node nextnode;
-    public int listLength;
+    private int listLength;
     public TextMeshPro Indicacion;
 
     public virtual List<Nodes> nodes
@@ -47,8 +47,12 @@ public class UbicacionScript : MonoBehaviour
         {
             if (nextnode.name == m_Nodes[i].nombre)
             {
+                if (m_Nodes[i].apodo == null)
+                {
+                    m_Nodes[i].apodo = m_Nodes[i].nombre;
+                }
             Arrow.transform.rotation = m_Nodes[i].quaternion;
-            Indicacion.text = "Siguiente Punto:" + "\n" + m_Nodes[i].nombre + "\n" + m_Nodes[i].direccion;
+            Indicacion.text = "Siguiente Punto: \n" + m_Nodes[i].apodo + "\n" + m_Nodes[i].direccion;
             }
         }            
     }
