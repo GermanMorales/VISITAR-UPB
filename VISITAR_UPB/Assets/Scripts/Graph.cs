@@ -152,9 +152,15 @@ public class Graph : MonoBehaviour
 
         for (var i = 0; i < list.Length; i++)
         {
-            if (list[i].gameObject.name == opcion)
+            /*if (list[i].gameObject.name == opcion)
             {
                 m_To = list[i];
+                //list[i].gameObject.GetComponent<Node>().
+            }*/
+
+            if (list[i].gameObject.GetComponent<Node>().apodo == opcion)
+            {
+	            m_To = list[i];
             }
         }
     }

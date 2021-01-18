@@ -1407,15 +1407,17 @@ MonoBehaviour:
   Arrow: {fileID: 8110582007666513576}
   m_Nodes:
   - nombre: 
+    apodo: 
     direccion: 
     quaternion: {x: 0, y: 0, z: 0, w: 0}
   - nombre: 
+    apodo: 
     direccion: 
     quaternion: {x: 0, y: 0, z: 0, w: 0}
   - nombre: 
+    apodo: 
     direccion: 
     quaternion: {x: 0, y: 0, z: 0, w: 0}
-  listLength: 0
   Indicacion: {fileID: 6113725934447229753}
 --- !u!114 &8110582008044638619
 MonoBehaviour:
@@ -1459,6 +1461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e448c8c06777f44f81014b296666dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  apodo: 
   m_Connections: []
 --- !u!1 &8110582008073003822
 GameObject:
