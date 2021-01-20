@@ -161,8 +161,15 @@ public class Graph : MonoBehaviour
             if (list[i].gameObject.GetComponent<Node>().apodo == opcion)
             {
 	            m_To = list[i];
+				if (m_From != null && m_To != m_From) 
+				{
+					m_Path = GetShortestPath ( m_From, m_To );
+					UbicacionScript uscript = m_From.GetComponent<UbicacionScript>();
+					uscript.DoChanges(m_Path.nodes[1]);
+				}
             }
         }
+		
     }
 	
 }
