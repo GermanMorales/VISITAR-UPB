@@ -21,6 +21,7 @@ public class Graph : MonoBehaviour
     protected Node m_From;
     protected Node m_To;
 	protected Path m_Path = new Path ();
+	public TextMeshProUGUI Nombredestinopantalla;
 
 	/// <summary>
 	/// Gets the nodes.
@@ -168,6 +169,7 @@ public class Graph : MonoBehaviour
 					uscript.DoChanges(m_Path.nodes[1]);
 				}
             }
+			Nombredestinopantalla.text = "Destino: " + opcion;
         }
 		
     }

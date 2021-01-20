@@ -13,6 +13,10 @@ public class UbicacionScript : MonoBehaviour
     private int listLength;
     public TextMeshPro Indicacion;
 
+    
+
+
+
     public virtual List<Nodes> nodes
     {
         get
@@ -30,7 +34,7 @@ public class UbicacionScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -51,8 +55,10 @@ public class UbicacionScript : MonoBehaviour
                 {
                     m_Nodes[i].apodo = m_Nodes[i].nombre;
                 }
+            Arrow.SetActive(true);
             Arrow.transform.rotation = m_Nodes[i].quaternion;
             Indicacion.text = "Siguiente Punto: \n" + m_Nodes[i].apodo + "\n" + m_Nodes[i].direccion;
+            
             }
         }            
     }

@@ -1129,7 +1129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8110582007666513580
 Transform:
   m_ObjectHideFlags: 0
@@ -1419,6 +1419,7 @@ MonoBehaviour:
     direccion: 
     quaternion: {x: 0, y: 0, z: 0, w: 0}
   Indicacion: {fileID: 6113725934447229753}
+  Nombredestinopantalla: {fileID: 0}
 --- !u!114 &8110582008044638619
 MonoBehaviour:
   m_ObjectHideFlags: 0
