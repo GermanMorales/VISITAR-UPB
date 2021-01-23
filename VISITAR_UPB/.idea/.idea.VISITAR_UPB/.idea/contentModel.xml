@@ -20,7 +20,6 @@
           <e p="Graph.cs" t="Include" />
           <e p="MasterScript.cs" t="Include" />
           <e p="Node.cs" t="Include" />
-          <e p="Nodes.cs" t="Include" />
           <e p="Path.cs" t="Include" />
           <e p="TeleType.cs" t="Include" />
           <e p="Ubicacion.cs" t="Include" />
