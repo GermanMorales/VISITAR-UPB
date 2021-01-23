@@ -23,6 +23,7 @@
           <e p="Nodes.cs" t="Include" />
           <e p="Path.cs" t="Include" />
           <e p="TeleType.cs" t="Include" />
+          <e p="Ubicacion.cs" t="Include" />
           <e p="UbicacionScript.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

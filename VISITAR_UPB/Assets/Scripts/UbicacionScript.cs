@@ -7,8 +7,10 @@ using TMPro;
 public class UbicacionScript : MonoBehaviour
 {
     public GameObject Arrow;
+    /*[SerializeField]
+    private List<Nodes> m_Nodes = new List<Nodes> ();*/
     [SerializeField]
-    private List<Nodes> m_Nodes = new List<Nodes> ();
+    private List<Ubicacion> m_Ubicaciones = new List<Ubicacion> ();
     protected Node nextnode;
     private int listLength;
     public TextMeshPro Indicacion;
@@ -17,11 +19,11 @@ public class UbicacionScript : MonoBehaviour
 
 
 
-    public virtual List<Nodes> nodes
+    public virtual List<Ubicacion> ubicacion
     {
         get
         {
-            return m_Nodes;
+            return m_Ubicaciones;
         }
     }
     
@@ -29,7 +31,7 @@ public class UbicacionScript : MonoBehaviour
     void changeArrowPosition()
     {
         //apunta hacia el primer nodo de la lista
-        Arrow.transform.rotation = m_Nodes[0].quaternion;
+        Arrow.transform.rotation = m_Ubicaciones[0].quaternion;
     }
     // Start is called before the first frame update
     void Start()
@@ -46,18 +48,18 @@ public class UbicacionScript : MonoBehaviour
     public void DoChanges(Node next)
     {
         nextnode = next;
-        listLength = m_Nodes.Count;
+        listLength = m_Ubicaciones.Count;
         for (int i = 0; i < listLength ; i++)
         {
-            if (nextnode.name == m_Nodes[i].nombre)
+            if (nextnode.name == m_Ubicaciones[i].nombre)
             {
-                if (m_Nodes[i].apodo == null)
+                if (m_Ubicaciones[i].apodo == null)
                 {
-                    m_Nodes[i].apodo = m_Nodes[i].nombre;
+                    m_Ubicaciones[i].apodo = m_Ubicaciones[i].nombre;
                 }
             Arrow.SetActive(true);
-            Arrow.transform.rotation = m_Nodes[i].quaternion;
-            Indicacion.text = "Siguiente Punto: \n" + m_Nodes[i].apodo + "\n" + m_Nodes[i].direccion;
+            Arrow.transform.rotation = m_Ubicaciones[i].quaternion;
+            Indicacion.text = "Siguiente Punto: \n" + m_Ubicaciones[i].apodo + "\n" + m_Ubicaciones[i].direccion;
             
             }
         }            
