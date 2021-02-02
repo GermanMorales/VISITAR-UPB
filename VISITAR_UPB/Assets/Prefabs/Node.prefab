@@ -1405,21 +1405,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Arrow: {fileID: 8110582007666513576}
-  m_Nodes:
-  - nombre: 
-    apodo: 
-    direccion: 
-    quaternion: {x: 0, y: 0, z: 0, w: 0}
-  - nombre: 
-    apodo: 
-    direccion: 
-    quaternion: {x: 0, y: 0, z: 0, w: 0}
-  - nombre: 
-    apodo: 
-    direccion: 
-    quaternion: {x: 0, y: 0, z: 0, w: 0}
+  m_Ubicaciones: []
   Indicacion: {fileID: 6113725934447229753}
-  Nombredestinopantalla: {fileID: 0}
 --- !u!114 &8110582008044638619
 MonoBehaviour:
   m_ObjectHideFlags: 0

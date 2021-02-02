@@ -4,6 +4,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ButtonScript : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class ButtonScript : MonoBehaviour
 
     private int current = 0;
 
+    [SerializeField] private Texture nav1;
+    [SerializeField] private Texture nav2;
+    
     public void showOptions(GameObject options)
     {
         options.SetActive(!options.activeSelf);
@@ -74,5 +78,27 @@ public class ButtonScript : MonoBehaviour
         graph.m_To = null;
     }
 
-    
+    public void NavegationMode()
+    {
+        Node origen = GameObject.Find("Graph").GetComponent<Graph>().m_From;
+        if (origen != null)
+        {
+            origen.gameObject.transform.GetChild(1).gameObject
+                .SetActive(!origen.gameObject.transform.GetChild(1).gameObject.activeSelf);
+        
+            origen.gameObject.transform.GetChild(0).gameObject
+                .SetActive(!origen.gameObject.transform.GetChild(0).gameObject.activeSelf);
+            
+            Texture button = this.gameObject.transform.GetChild(1).GetComponent<RawImage>().texture;
+            if (button == nav1)
+            {
+                button = nav2;
+            }
+            else
+            {
+                button = nav1;
+            }
+        }
+        
+    }
 }
