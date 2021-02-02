@@ -18,8 +18,8 @@ public class Graph : MonoBehaviour
 	/// </summary>
 	[SerializeField]
 	protected List<Node> m_Nodes = new List<Node> ();
-    protected Node m_From;
-    protected Node m_To;
+	public Node m_From;
+    public Node m_To;
 	protected Path m_Path = new Path ();
 	public TextMeshProUGUI Nombredestinopantalla;
 
@@ -174,21 +174,5 @@ public class Graph : MonoBehaviour
 		
     }
 
-    public void CancelarDestino()
-    {
-	    
-		Debug.Log("Cancelar Destino");
-		Nombredestinopantalla.text = "Destino: ";
-		if (!m_From == null)
-		{
-			UbicacionScript uscript = m_From.GetComponent<UbicacionScript>();
-			uscript.DeleteIndications();
-
-		}
-	    
-	    m_To = null;
-	    
-	    
-    }
 	
 }

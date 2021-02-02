@@ -23,6 +23,11 @@ public class ButtonScript : MonoBehaviour
       
     }
 
+    private void Update()
+    {
+        
+    }
+
 
     public void nextbuttons()
     {   
@@ -52,6 +57,21 @@ public class ButtonScript : MonoBehaviour
             helps[current-1].SetActive(true);
             current--;
         }
+    }
+
+    public void CancelarDestino()
+    {
+        Graph graph = GameObject.Find("Graph").GetComponent<Graph>();
+        
+        graph.Nombredestinopantalla.text = "Destino: ";
+        if (graph.m_From != null)
+        {
+            UbicacionScript uscript = graph.m_From.GetComponent<UbicacionScript>();
+            uscript.DeleteIndications();
+        }
+
+	    
+        graph.m_To = null;
     }
 
     

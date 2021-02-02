@@ -848,6 +848,8 @@ MonoBehaviour:
   - {fileID: 1210218272}
   - {fileID: 1686718514}
   - {fileID: 1354036371}
+  m_From: {fileID: 0}
+  m_To: {fileID: 0}
   Nombredestinopantalla: {fileID: 187308456}
 --- !u!1 &49348241
 GameObject:
@@ -13655,6 +13657,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Nodes: []
+  m_From: {fileID: 0}
+  m_To: {fileID: 0}
   Nombredestinopantalla: {fileID: 187308456}
 --- !u!1 &885950682
 GameObject:
@@ -17289,8 +17293,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 869941674}
-        m_TargetAssemblyTypeName: Graph, Assembly-CSharp
+      - m_Target: {fileID: 314658344}
+        m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
         m_MethodName: CancelarDestino
         m_Mode: 1
         m_Arguments:
