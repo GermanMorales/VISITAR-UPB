@@ -64,4 +64,12 @@ public class UbicacionScript : MonoBehaviour
             }
         }            
     }
+
+    public void DeleteIndications()
+    {
+        GetComponent<Graph>().Nombredestinopantalla.text ="Destino: ";
+        Arrow.SetActive(false);
+        Indicacion.text = "";
+
+    }
 }

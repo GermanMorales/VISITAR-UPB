@@ -173,5 +173,22 @@ public class Graph : MonoBehaviour
         }
 		
     }
+
+    public void CancelarDestino()
+    {
+	    
+		Debug.Log("Cancelar Destino");
+		Nombredestinopantalla.text = "Destino: ";
+		if (!m_From == null)
+		{
+			UbicacionScript uscript = m_From.GetComponent<UbicacionScript>();
+			uscript.DeleteIndications();
+
+		}
+	    
+	    m_To = null;
+	    
+	    
+    }
 	
 }
