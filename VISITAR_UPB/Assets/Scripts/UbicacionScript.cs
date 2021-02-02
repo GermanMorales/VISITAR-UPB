@@ -15,6 +15,8 @@ public class UbicacionScript : MonoBehaviour
     private int listLength;
     public TextMeshPro Indicacion;
 
+    private float smooth = 5f;
+    
     
 
 
@@ -31,7 +33,7 @@ public class UbicacionScript : MonoBehaviour
     void changeArrowPosition()
     {
         //apunta hacia el primer nodo de la lista
-        Arrow.transform.rotation = m_Ubicaciones[0].quaternion;
+       // Arrow.transform.rotation = m_Ubicaciones[0].quaternion;
     }
     // Start is called before the first frame update
     void Start()
@@ -58,7 +60,16 @@ public class UbicacionScript : MonoBehaviour
                     m_Ubicaciones[i].apodo = m_Ubicaciones[i].nombre;
                 }
             Arrow.SetActive(true);
-            Arrow.transform.rotation = m_Ubicaciones[i].quaternion;
+            //Arrow.transform.rotation = m_Ubicaciones[i].quaternion;
+            Arrow.transform.rotation = Quaternion.Euler(m_Ubicaciones[i].rotacion[0],m_Ubicaciones[i].rotacion[1], m_Ubicaciones[i].rotacion[2]);
+            /*
+            Quaternion target = Quaternion.Euler(m_Ubicaciones[i].rotacion[0],m_Ubicaciones[i].rotacion[1], m_Ubicaciones[i].rotacion[2]);
+            Arrow.transform.rotation = Quaternion.Slerp(Arrow.transform.rotation, target, Time.fixedDeltaTime* smooth);
+            */
+            //Arrow.transform.eulerAngles = new Vector3(m_Ubicaciones[i].rotacion[0],m_Ubicaciones[i].rotacion[1], m_Ubicaciones[i].rotacion[2]));
+
+           
+            
             Indicacion.text = "Siguiente Punto: \n" + m_Ubicaciones[i].apodo + "\n" + m_Ubicaciones[i].direccion;
             
             }
