@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d3c9b36-c7fc-455a-9e81-1cf0d5e6e41f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VISITAR_UPB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VISITAR_UPB/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ubicacion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ubicacion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UbicacionScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UbicacionScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,24 +159,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UbicacionScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="59" column="69" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+            <state relative-caret-position="60">
+              <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
               <folding>
-                <marker date="1612303541793" expanded="false" signature="6:113" ph="..." />
-                <marker date="1612303541793" expanded="true" signature="159:2338" ph="{...}" />
-                <marker date="1612303541793" expanded="true" signature="195:269" ph="/* [SerializeField] ... */" />
-                <marker date="1612303541793" expanded="true" signature="540:618" ph="{...}" />
-                <marker date="1612303541793" expanded="true" signature="558:612" ph="{...}" />
-                <marker date="1612303541793" expanded="true" signature="655:783" ph="{...}" />
-                <marker date="1612303541793" expanded="true" signature="670:777" ph="/* apunta hacia el primer nodo de la lista ... */" />
-                <marker date="1612303541793" expanded="true" signature="853:866" ph="{...}" />
-                <marker date="1612303541793" expanded="true" signature="924:945" ph="{...}" />
-                <marker date="1612303541793" expanded="true" signature="983:2224" ph="{...}" />
-                <marker date="1612303541793" expanded="true" signature="1102:2206" ph="{...}" />
-                <marker date="1612303541793" expanded="true" signature="1170:2196" ph="{...}" />
-                <marker date="1612303541793" expanded="true" signature="1236:1342" ph="{...}" />
-                <marker date="1612303541793" expanded="true" signature="1606:1882" ph="/* Quaternion target = Quaternion.Euler(m_Ubicaciones[i].rotacion[0],m_Ubicaciones[i].rotacion[1], m_Ubicaciones[ ... */" />
-                <marker date="1612303541793" expanded="true" signature="2261:2336" ph="{...}" />
+                <marker date="1612384649203" expanded="false" signature="6:113" ph="..." />
+                <marker date="1612384649203" expanded="true" signature="159:2450" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="195:269" ph="/* [SerializeField] ... */" />
+                <marker date="1612384649203" expanded="true" signature="540:618" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="558:612" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="655:783" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="670:777" ph="/* apunta hacia el primer nodo de la lista ... */" />
+                <marker date="1612384649203" expanded="true" signature="853:866" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="924:945" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="983:2336" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="1102:2318" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="1170:2308" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="1236:1342" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="1502:1704" ph="{...}" />
+                <marker date="1612384649203" expanded="true" signature="1718:1994" ph="/* Quaternion target = Quaternion.Euler(m_Ubicaciones[i].rotacion[0],m_Ubicaciones[i].rotacion[1], m_Ubicaciones[ ... */" />
+                <marker date="1612384649203" expanded="true" signature="2373:2448" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -238,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="478" />
     <option name="y" value="228" />
     <option name="width" value="805" />
@@ -251,6 +249,7 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -272,7 +271,6 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,11 +328,12 @@
       <workItem from="1612235184617" duration="8627000" />
       <workItem from="1612272290901" duration="4625000" />
       <workItem from="1612297944592" duration="3823000" />
+      <workItem from="1612383798400" duration="1096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37994000" />
+    <option name="totallyTimeSpent" value="39090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,9 +345,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12556732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12708019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -554,24 +554,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UbicacionScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="59" column="69" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+        <state relative-caret-position="60">
+          <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
           <folding>
-            <marker date="1612303541793" expanded="false" signature="6:113" ph="..." />
-            <marker date="1612303541793" expanded="true" signature="159:2338" ph="{...}" />
-            <marker date="1612303541793" expanded="true" signature="195:269" ph="/* [SerializeField] ... */" />
-            <marker date="1612303541793" expanded="true" signature="540:618" ph="{...}" />
-            <marker date="1612303541793" expanded="true" signature="558:612" ph="{...}" />
-            <marker date="1612303541793" expanded="true" signature="655:783" ph="{...}" />
-            <marker date="1612303541793" expanded="true" signature="670:777" ph="/* apunta hacia el primer nodo de la lista ... */" />
-            <marker date="1612303541793" expanded="true" signature="853:866" ph="{...}" />
-            <marker date="1612303541793" expanded="true" signature="924:945" ph="{...}" />
-            <marker date="1612303541793" expanded="true" signature="983:2224" ph="{...}" />
-            <marker date="1612303541793" expanded="true" signature="1102:2206" ph="{...}" />
-            <marker date="1612303541793" expanded="true" signature="1170:2196" ph="{...}" />
-            <marker date="1612303541793" expanded="true" signature="1236:1342" ph="{...}" />
-            <marker date="1612303541793" expanded="true" signature="1606:1882" ph="/* Quaternion target = Quaternion.Euler(m_Ubicaciones[i].rotacion[0],m_Ubicaciones[i].rotacion[1], m_Ubicaciones[ ... */" />
-            <marker date="1612303541793" expanded="true" signature="2261:2336" ph="{...}" />
+            <marker date="1612384649203" expanded="false" signature="6:113" ph="..." />
+            <marker date="1612384649203" expanded="true" signature="159:2450" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="195:269" ph="/* [SerializeField] ... */" />
+            <marker date="1612384649203" expanded="true" signature="540:618" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="558:612" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="655:783" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="670:777" ph="/* apunta hacia el primer nodo de la lista ... */" />
+            <marker date="1612384649203" expanded="true" signature="853:866" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="924:945" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="983:2336" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="1102:2318" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="1170:2308" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="1236:1342" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="1502:1704" ph="{...}" />
+            <marker date="1612384649203" expanded="true" signature="1718:1994" ph="/* Quaternion target = Quaternion.Euler(m_Ubicaciones[i].rotacion[0],m_Ubicaciones[i].rotacion[1], m_Ubicaciones[ ... */" />
+            <marker date="1612384649203" expanded="true" signature="2373:2448" ph="{...}" />
           </folding>
         </state>
       </provider>

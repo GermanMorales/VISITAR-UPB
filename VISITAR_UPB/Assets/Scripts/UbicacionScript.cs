@@ -61,8 +61,13 @@ public class UbicacionScript : MonoBehaviour
                 }
             Arrow.SetActive(true);
             //Arrow.transform.rotation = m_Ubicaciones[i].quaternion;
-            Arrow.transform.rotation = Quaternion.Euler(m_Ubicaciones[i].rotacion[0],m_Ubicaciones[i].rotacion[1], m_Ubicaciones[i].rotacion[2]);
-            /*
+
+            if (m_Ubicaciones[i].rotacion.Count == 3)
+            {
+                Arrow.transform.rotation = Quaternion.Euler(m_Ubicaciones[i].rotacion[0],
+                    m_Ubicaciones[i].rotacion[1], m_Ubicaciones[i].rotacion[2]);   
+            }
+             /*
             Quaternion target = Quaternion.Euler(m_Ubicaciones[i].rotacion[0],m_Ubicaciones[i].rotacion[1], m_Ubicaciones[i].rotacion[2]);
             Arrow.transform.rotation = Quaternion.Slerp(Arrow.transform.rotation, target, Time.fixedDeltaTime* smooth);
             */
